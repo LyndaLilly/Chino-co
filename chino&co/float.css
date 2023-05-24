@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* .div1{
+    font-size: 30px;
+    padding: 20px;
+    text-align: center;
+    background-color: green;
+    color: white;
+    margin-bottom: 20px;
+    float: left;
+    width: 48%;
+    margin-right: 2%;
+}
+
+.div2{
+    font-size: 30px;
+    padding: 20px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    float: right;
+    width: 48%;
+} */
+
+/* .div3{
+    border: 2px solid red;
+   overflow: hidden;
+    padding: 20px;
+    width: 50%;
+}
+
+.image{
+ float: left;
+    width: 48%; 
+    margin-right: 2%;
+}
+
+
+h2{
+    float: right;
+    width: 48%;
+    text-align: justify;
+} */
+
+.box{
+    background-color: blue;
+    height: 30vh;
+    float: left;
+    width: 33.33%;
+}
+
+.box1{
+    background-color: red;
+    height: 30vh;
+    float: left;
+    width: 33.33%;
+}
+
+
+.box2{
+    background-color: peru;
+    height: 30vh;
+    float: left;
+    width: 33.33%;
+}
+
+button{
+    padding: 15px;
+    background-color: red;
+    color: white;
+    font-size: 18px;
+    float: left;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+   
+ 
+}
+
+.drop{
+       margin: 30px;
+}
+
+a{
+    background-color: gray;
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+
+a:hover{
+    background-color: antiquewhite;
+  
+}
+
+.dropdown{
+    position: relative;
+}
+
+.dropdown-content{
+      box-shadow: 0px 1px 6px 0px black;
+      width: 10%;
+      position: absolute;
+      left: 200px;
+      top: 50px;
+      z-index: 1;
+      display: none;
+      animation-name: dropdown;
+      animation-duration: 2s;
+}
+
+
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+
+@keyframes dropdown {
+    0%{left: -200px;}
+    100%{left: 200px;}
+}

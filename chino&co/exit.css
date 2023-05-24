@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* a{
+    text-decoration: none;
+    background-color: red;
+    color: white;
+    padding: 20px;
+    font-size: 20px;
+    float: left;
+    
+}
+
+nav{
+    margin: 30px;
+} */
+
+a:hover{
+    background-color: black;
+    color: yellow;
+}
+
+/* ul{
+    margin: 30px;
+    list-style-type: none;
+    width: 100px;
+} */
+
+a{
+    background-color: green;
+    color: white;
+    padding: 20px;
+    font-size: 20px;
+    display: block;
+}
+
+/* li{
+    margin-bottom: 20px;
+} */
+
+ul{
+  list-style-position: outside;
+  margin: 30px;
+  background-color: palevioletred;
+  padding: 40px;
+}
+
+li{
+    background-color: aqua;
+    margin-bottom: 20px;
+    padding: 15px;
+    font-size: 20px;
+}
+
+table, td, th{
+    border: 2px solid white;
+    border-collapse: collapse;
+}
+
+
+table{
+    width: 50%;
+   
+}
+
+td, th{
+    padding: 20px;
+    
+}
+
+th{
+    text-align: left;
+    background-color: red;
+    color: white;
+    font-size: 30px;
+}
+
+
+tr:nth-child(odd){
+    background-color: aqua;
+}
+
+tr:nth-child(even){
+    background-color: gray;
+}
+
+tr:nth-child(even):hover{
+    background-color: greenyellow;
+}
+
+
+tr:nth-child(odd):hover{
+    background-color: peachpuff;
+}
+
+tr{
+    transition: all 2s ease-in;
+}
+
+
+div{
+    font-size: 40px;
+    display: inline-block;
+}
+
+span{
+    display: none;
+}
+
+section:hover span{
+    display: block;
+}
